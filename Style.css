@@ -25,7 +25,7 @@ main {
 }
 
 footer {
-    height: 60px;
+    height: 120px;
     background-color: rgba(222, 217, 255, 0.6);
     background-image: url(imgBlue/obxBz5.png);
     background-blend-mode: color-burn;
@@ -618,6 +618,9 @@ main .AboutUs-container {
     margin-bottom: 10px;
 }
 
+.enter-forget a:checked {
+    text-decoration: none;
+}
 .ent {
     display: flex;
     flex-direction: column;
