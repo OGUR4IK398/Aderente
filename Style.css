@@ -602,13 +602,13 @@ main .AboutUs-container {
 
 @media(max-width: 1000px){
     .reg-card {
-        width: 70%;
+        width: 75%;
     }
 }
 
 @media(max-width: 400px){
     .reg-card {
-        width: 90%;
+        width: 95%;
     }
 }
 
