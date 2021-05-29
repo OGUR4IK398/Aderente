@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 * {
     text-decoration: none;
-    font-family: Century Gothic sans-serif;
+    font-family: 'Open Sans';
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -84,8 +87,8 @@ header .container {
 
 .logo {
     display: flex;
-    width: 60px;
-    height: 60px;
+    width: 62px;
+    height: 62px;
     background-image: url(img/logo.PNG);
     background-size: 120%;
     background-repeat: no-repeat;
@@ -97,8 +100,9 @@ header a {
     padding: 0px 15px;
     font-size: 15px;
     color: white;
-    font-weight: 600;
-    font-family: Helvetica;
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 14px;
     letter-spacing: 1px;
     transition: 0.6s;
 }
@@ -140,11 +144,10 @@ header a:hover{
     height: 450px;
     width: 60%;
     background-image: url(imgBlue/undraw_Create_re_57a3.svg);
-    background-color: white;
     background-size: 200%;
     background-repeat: no-repeat;
-    background-position: -9% 860%;
-    background-color: #DEE3FF;
+    background-position: -9% -70%;
+    background-color: rgba(222, 227, 255);
     border-radius: 30px;
 }
 
@@ -190,7 +193,7 @@ header a:hover{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
-    background-color: #DEE3FF;
+    background-color: rgba(222, 227, 255);
 }
 
 /* Социальная сеть */
@@ -236,7 +239,9 @@ header a:hover{
     background-size: 90% 90%;
 }
 
-.autor
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* АДАПТИВНОСТЬ */
 .adaptiv-img {
@@ -291,6 +296,7 @@ header a:hover{
         display: none;
         height: 0px;
         background-color: #7F92F8;
+        transition: 0.2s;
     }
 
     nav:hover a {
@@ -583,7 +589,7 @@ main .AboutUs-container {
 .reg-but{
     margin-top: 20px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     background-color: #7F92F8;
     padding: 10px 30px;
     border-radius: 10px;
